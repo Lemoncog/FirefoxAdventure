@@ -37,3 +37,11 @@ installCheck.onsuccess = function() {
 } else {
   button.style.display = "none";
 }
+
+function foodGoto(ev) {
+  console.log("clicked");
+  window.location.href = 'foodOff/foodOff.html';
+}
+
+var gotoFoodButton = document.getElementById('food-btn');
+gotoFoodButton.addEventListener('click', foodGoto, false);

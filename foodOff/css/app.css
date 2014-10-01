@@ -1,0 +1,12 @@
+html {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+	font-size: 40px;
+}
+.double-sided {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
